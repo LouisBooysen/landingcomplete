@@ -1,0 +1,99 @@
+.top{
+    background-color:#1F2937 ;
+}
+
+body{
+   margin: auto;
+}
+
+img{
+    border: 1px solid grey;
+    width: 100px;
+    height:100px;
+    align-content: right;
+}
+
+  .block{
+    float: left;
+    width: 25%;
+  }
+  
+  .block{
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(184, 183, 182);
+    align-content: center;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+    .block {
+      width: 100%;
+    }
+  }
+
+  .quote{
+    background-color: #E5E7EB;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+  }
+  .wordrow{
+    display:flex;
+  }
+
+  .wordrow{
+    flex-direction: row;
+    margin-inline-start:20px;
+  }
+
+  .awesome{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+    text-align: center;
+  }
+
+  .linkone {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: right;
+  }
+  .randomwords {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+  }
+
+  .headerlogo{
+    font-size: 24px;
+    color:#F9FAF8;
+  }
+  button{
+    background-color:#3882F6;
+   width: 100px;
+   height:50px;
+   font-size: 20px;
+   border-radius: 10px;
+  }
+
+  .randominfo{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+  }
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color:#E5E7EB;
+}
